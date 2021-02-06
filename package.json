@@ -1,0 +1,25 @@
+{
+  "name": "pokebell-interpreter",
+  "version": "1.0.0",
+  "description": "あなたのパソコンになつかしのポケットベルが帰ってくる(きません)",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "test": "NODE_ENV=test jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YUUKIToriyama/pokebell-interpreter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YUUKIToriyama/pokebell-interpreter/issues"
+  },
+  "homepage": "https://github.com/YUUKIToriyama/pokebell-interpreter#readme",
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^26.6.3",
+    "snowpack": "^3.0.11"
+  },
+}
